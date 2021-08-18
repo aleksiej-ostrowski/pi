@@ -12,8 +12,8 @@ import mmap
 from colorama import init
 from termcolor import colored
 
-what_find = b'777777777'
-const_plus = 10
+what_find  = b'777777777' # pattern
+const_plus = 10           # show after pattern
 
 h = what_find.hex()
 
@@ -24,7 +24,8 @@ with open("1kkk.txt", "r+b") as f:
     mm = mmap.mmap(f.fileno(), 0)
     r = mm.find(what_find)
     if r != -1:
-        # print('find in n =', r - 1, 'what =', mm[r:r + len(what_find) + const_plus].decode())
-        print('find in n =', r - 1, f"what = {mm[r:r + len(what_find)].decode()}{colored(mm[r + len(what_find): r + len(what_find) + const_plus].decode(), 'red')}")
+        offset = r + len(what_find)
+        print(f"pattern: {mm[r:offset].decode()}{colored(mm[offset:offset + const_plus].decode(), 'green')}")
+        print('pattern is found in n =', colored(r - 1, 'red'))
     else:
-        print('nothing found')
+        print(what_find, 'is not found')
