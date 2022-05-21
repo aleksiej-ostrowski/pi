@@ -110,8 +110,9 @@ Sample: **PI = 3.14159265358979323846264338327950288419716939937510...**
 | `999999999` | `564665206` |
 | `9999999999` | `not found` |
 
-## Conclusion
+## Conclusions
 
 * It is easy to see that some digits (for example `9`) are repeated in the sequence of PI not gradually, but abruptly.
-
+* The numbers `7` and `8` are similar by the nature of this abrupt. 
+* An open question arises: does a proportional extention of the sequence of PI guarantee finding repeating digits of a certain length or not?
 
