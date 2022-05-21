@@ -1,7 +1,11 @@
 # Experiment with PI
 
-The **purpose** of this experiment is to find the positions (see n - positions after `3.`) repeating digits (see `Pattern`) in the numerical sequence of PI (file `1kkk.txt`).
-The length of the numerical sequence of PI is 10<sup>9</sup>.
+The **purpose** of this experiment is to find the positions (See `n` positions after the part of PI `3.`) repeating digits (See `Pattern`) in the numerical sequence of PI 
+(file `1kkk.txt` - You must download this file by yourself from the Internet).
+
+The length of the numerical sequence of PI for this experiment is **10<sup>9</sup>**.
+
+Sample: **PI = 3.14159265358979323846264338327950288419716939937510...**
 
 | Pattern     | n           |
 | ---         | ---         |
@@ -105,4 +109,9 @@ The length of the numerical sequence of PI is 10<sup>9</sup>.
 | `99999999` | `36356642` |
 | `999999999` | `564665206` |
 | `9999999999` | `not found` |
+
+## Conclusion
+
+* It is easy to see that some digits (for example `9`) are repeated in the sequence of PI not gradually, but abruptly.
+
 
