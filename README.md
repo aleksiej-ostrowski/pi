@@ -1,4 +1,4 @@
-# Experiment with PI
+# Experiment with the mathematical constant PI
 
 The **purpose** of this experiment is to find the positions (See `n` positions after the part of PI `3.`) repeating digits (See `Pattern`) in the numerical sequence of PI 
 (file `1kkk.txt` - You must download this file by yourself from the Internet or generate by https://github.com/Mysticial/Mini-Pi).
