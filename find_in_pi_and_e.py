@@ -13,7 +13,7 @@ import mmap
 # from termcolor import colored
 
 table = '''
-| Pattern | First matching in ***pi***, n | First matching in ***e***, n |
+| Pattern | First matching in ***π***, n | First matching in ***e***, n |
 | --- | --- | --- |
 '''
 

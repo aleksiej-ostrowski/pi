@@ -1,5 +1,5 @@
 
-| Pattern | First matching in ***pi***, n | First matching in ***e***, n |
+| Pattern | First matching in ***π***, n | First matching in ***e***, n |
 | --- | --- | --- |
 | `0` | `32` | `13` |
 | `00` | `307` | `112` |
