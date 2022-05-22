@@ -7,8 +7,8 @@ The length of the numerical sequence of PI for this experiment is **10<sup>9</su
 
 Sample: **PI = 3.14159265358979323846264338327950288419716939937510...**
 
-| Pattern     | n           |
-| ---         | ---         |
+| Pattern     | First matching, n    |
+| ---         | ---                  |
 | `0` | `32` |
 | `00` | `307` |
 | `000` | `601` |

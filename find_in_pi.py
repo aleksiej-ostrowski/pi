@@ -13,8 +13,8 @@ import mmap
 # from termcolor import colored
 
 table = '''
-| Pattern     | n           |
-| ---         | ---         |
+| Pattern     | First matching, n    |
+| ---         | ---                  |
 '''
 
 N = 10
