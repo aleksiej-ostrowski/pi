@@ -1,13 +1,13 @@
-# Experiment with the mathematical constantis ***pi*** & ***e***
+# Experiment with the mathematical constantis ***pi*** and ***e***
 
 The **purpose** of this experiment is to find the positions (See `n` positions after the part of ***pi*** `3.` and ***e*** `2.`) repeating digits (See `Pattern`) in the numerical sequences of ***pi*** 
-and ***e*** (files `pi1b.txt` and `e1b.txt`: You must download from https://archive.org/details/Math_Constants or generate by https://github.com/Mysticial/Mini-Pi).
+and ***e*** (files `pi1b.txt` with md5 `3901670f41a84174103bd6a8f07651c0` and `e1b.txt` with md5 `644034cb947736dc0a1f7b3b56c28c72`: You must download from https://archive.org/details/Math_Constants or generate by https://github.com/Mysticial/Mini-Pi).<br />
 
 The length of the numerical sequences of ***pi*** and ***e*** for this experiment is **10<sup>9</sup>**.
 
-Samples: 
-***pi*** = 3.1415926535897932384626433832795028841971693993751058209749445923...
- ***e*** = 2.7182818284590452353602874713526624977572470936999595749669676277...
+Samples:<br /> 
+***pi*** = 3.1415926535897932384626433832795028841971693993751058209749445923...<br />
+ ***e*** = 2.7182818284590452353602874713526624977572470936999595749669676277...<br />
 
 
 | Pattern | First matching in ***pi***, n | First matching in ***e***, n |
