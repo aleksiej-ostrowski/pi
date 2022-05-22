@@ -19,17 +19,16 @@ table = '''
 
 N = 10
 
-for NUMBER in (b'0', b'1', b'2', b'3', b'4', b'5', b'6', b'7', b'8', b'9'):
+with open("1kkk.txt", "r+b") as f:
+    with mmap.mmap(f.fileno(), 0, access=mmap.ACCESS_READ) as mm:
+        for NUMBER in (b'0', b'1', b'2', b'3', b'4', b'5', b'6', b'7', b'8', b'9'):
+            patterns = [NUMBER * x for x in range(1, N + 1)]
+            # print(patterns)
 
-    patterns = [NUMBER * x for x in range(1, N + 1)]
-    # print(patterns)
+            # h = what_find.hex()
+            # print('str:', what_find.decode())
+            # print('hex str:', #h)
 
-    # h = what_find.hex()
-    # print('str:', what_find.decode())
-    # print('hex str:', #h)
-
-    with open("1kkk.txt", "r+b") as f:
-        with mmap.mmap(f.fileno(), 0, access=mmap.ACCESS_READ) as mm:
             mm.seek(1)
             for p in patterns:
                 r = mm.find(p)
