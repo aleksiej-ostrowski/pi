@@ -1,14 +1,3 @@
-# Experiment with the mathematical constantis ***pi*** & ***e***
-
-The **purpose** of this experiment is to find the positions (See `n` positions after the part of ***pi*** `3.` and ***e*** `2.`) repeating digits (See `Pattern`) in the numerical sequences of ***pi*** 
-and ***e*** (files `pi1b.txt` and `e1b.txt`: You must download from https://archive.org/details/Math_Constants or generate by https://github.com/Mysticial/Mini-Pi).
-
-The length of the numerical sequences of ***pi*** and ***e*** for this experiment is **10<sup>9</sup>**.
-
-Samples: 
-***pi*** = 3.1415926535897932384626433832795028841971693993751058209749445923...
- ***e*** = 2.7182818284590452353602874713526624977572470936999595749669676277...
-
 
 | Pattern | First matching in ***pi***, n | First matching in ***e***, n |
 | --- | --- | --- |
@@ -112,10 +101,4 @@ Samples:
 | `99999999` | `36356642` | `384340` |
 | `999999999` | `564665206` | `not found` |
 | `9999999999` | `not found` | `not found` |
-
-## Conclusions
-
-* It is easy to see that some digits (for example `9`) are repeated in the sequence of ***pi*** not gradually, but abruptly.
-* The numbers `7` and `8` in the sequence of ***pi*** are similar by the nature of this abrupt. 
-* An open question arises: does a proportional extention of the sequence of ***pi*** or ***e*** is guarantee finding repeating digits of a certain length or not?
 
