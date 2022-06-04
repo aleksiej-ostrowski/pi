@@ -113,7 +113,7 @@ Samples:<br />
 | `999999999` | `564665206` | `not found` |
 | `9999999999` | `not found` | `not found` |
 
-###Balance of digits
+### Balance of digits
 
 | Pattern | All matching in ***π***, n | All matching in ***e***, n |
 | --- | --- | --- |
