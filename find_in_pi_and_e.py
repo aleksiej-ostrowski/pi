@@ -31,8 +31,8 @@ with open("pi1b.txt", "r+b") as f_pi, \
             # print('str:', what_find.decode())
             # print('hex str:', #h)
 
-            mm_pi.seek(1)
-            mm_e.seek(1)
+            mm_pi.seek(2)
+            mm_e.seek(2)
 
             for p in patterns:
 

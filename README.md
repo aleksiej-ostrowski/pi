@@ -113,9 +113,25 @@ Samples:<br />
 | `999999999` | `564665206` | `not found` |
 | `9999999999` | `not found` | `not found` |
 
+###Balance of digits
+
+| Pattern | All matching in ***π***, n | All matching in ***e***, n |
+| --- | --- | --- |
+| `0` | `99993942` | `100004425` |
+| `1` | `99997334` | `99982926` |
+| `2` | `100002410` | `99999168` |
+| `3` | `99986911` | `100002498` |
+| `4` | `100011958` | `100018922` |
+| `5` | `99998885` | `100003884` |
+| `6` | `100010387` | `99987241` |
+| `7` | `99996061` | `99997536` |
+| `8` | `100001839` | `100005348` |
+| `9` | `100000273` | `99998052` |
+
 ## Conclusions
 
 * It is easy to see that some digits (for example `9`) are repeated in the sequence of ***π*** not gradually, but abruptly.
 * The numbers `7` and `8` in the sequence of ***π*** are similar by the nature of this abrupt. 
 * An open question arises: does a proportional extention of the sequence of ***π*** or ***e*** is guarantee finding repeating digits of a certain length or not?
+* The balance of digits for ***π*** and ***e*** is good.
 
